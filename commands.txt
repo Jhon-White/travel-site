@@ -1,0 +1,60 @@
+git init
+
+git checkout -- . 
+  restore to previous state
+
+git config --global user.name "Vanea"
+git config --global user.email "vanea@mail.ru"
+
+git status
+git add "filename.extension"
+git add -A
+git commit -m "The message"
+
+git clone http....
+
+git remote -v
+git remote set-url origin https://github.com/Jhon-White/travel-site.git
+
+git push origin master
+
+pwd - print working directory
+touch "index.html"
+
+npm install jquery --save
+
+npm install gulp-cli --global
+npm install gulp --save-dev
+
+unstage files
+git reset app/index.html
+create branch
+git branch "branch name"
+
+switch banches
+git checkout "branch name"
+
+create and switch to new created branch
+git checkout -b 'branch name'
+
+commit and stage in one move in case the changes are small
+git commit -am 'message text'
+
+delete branch
+git banch -d "branch name"
+
+merge branches
+git merge 'branch name'
+git merge 'branch name' --no-ff
+
+exit vim
+tap Esc, then type ":wq"
+
+npm install gulp-watch --save-dev
+npm install gulp-postcss --save-dev
+npm install autoprefixer --save-dev
+npm install postcss-simple-vars --save-dev
+npm install postcss-nested --save-dev
+npm install postcss-import --save-dev
+npm install browser-sync --save-dev
+npm install postcss-mixins --save-dev
